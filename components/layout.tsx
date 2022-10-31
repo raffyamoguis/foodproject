@@ -19,7 +19,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <meta name='twitter:card' content='summary_large_image' /> */}
       </Head>
       <header className={styles.header}>
-        <h1 className={utilStyles.headingMd}>Food App</h1>
+        <h1 className={utilStyles.headingLg}>Food App</h1>
       </header>
       <main>{children}</main>
 
